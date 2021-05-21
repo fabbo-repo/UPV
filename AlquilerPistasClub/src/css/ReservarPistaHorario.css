@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04-abr-2020, 18:00:19
+    Author     : María Sun and Fabbo Box
+*/
+.label {
+  -fx-text-fill: #345a00;
+  -fx-font-weight: normal;
+}
+
+#titulo {
+  -fx-text-fill: #ecfdb6;
+  -fx-font-size: 16pt;
+}
+
+#columna {
+  -fx-background-color: #ecfdb6;
+  -fx-border-color: olivedrab;
+  -fx-border-width: 0.5px;
+  -fx-border-style: solid;
+}
+
+#warning-label {
+  -fx-text-fill: #df0000;
+}
+
+#tabPane {
+  -fx-text-fill: olivedrab;
+  -fx-background-color: #ecfdb6;
+}
+.check-box {
+  -fx-text-fill: #345a00;
+}
+
+.combo-box {
+  -fx-background-color: #f1ffc4;
+}
+
+.table-view {
+  -fx-background-image: url(/imagenes/random3.PNG);
+  -fx-background-repeat: no-repeat;
+  -fx-background-size: cover;
+  -fx-background-position: center center;
+}
+
+.table-view .column-header .label{
+    -fx-background-color: #E0FB84;
+    -fx-alignment: CENTER;
+    -fx-font: 18px "System";
+}
+
+.table-cell{     
+    -fx-font: 16px "System";
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+}
+
+.tile-pane {
+  -fx-background-image: url(/imagenes/random4.jpg);
+  -fx-background-repeat: no-repeat;
+  -fx-background-size: cover;
+  -fx-background-position: center center;
+}
+
+.pane {
+  -fx-background-image: url(/imagenes/random3.PNG);
+  -fx-background-repeat: no-repeat;
+  -fx-background-size: cover;
+  -fx-background-position: center center;
+}
+
+.button {
+  -fx-text-fill: #345a00;
+  -fx-font-weight: normal;
+  -fx-background-color: #ecfdb6;
+  -fx-border-color: olivedrab;
+  -fx-border-width: 0.5px;
+  -fx-border-style: solid;
+}
+.button:hover {
+  -fx-text-fill: white;
+  -fx-background-color: #8dbd2a;
+}
+
+.button:pressed {
+  -fx-text-fill: white;
+  -fx-background-color: olivedrab;
+}
+
+.separator {
+  -fx-background-color: #345a00;
+}
+
+.tab-pane *.tab-header-area *.tab-header-background {
+  -fx-background-color: #96C200;
+}
+
+.tab{
+    -fx-background-color: #ecfdb6;
+    -fx-font: 18px "System";
+}
+
+.tab:selected{
+    -fx-background-color: #E0FB84;
+    -fx-font: 18px "System";
+}
+
+.table-view .scroll-bar:vertical {
+       -fx-opacity: 0;
+       -fx-padding:-7;
+}
+
+.table-view .scroll-bar:horizontal {
+       -fx-opacity: 0;
+       -fx-padding:-7;
+}

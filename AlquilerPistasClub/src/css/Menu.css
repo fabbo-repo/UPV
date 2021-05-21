@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-abr-2020, 13:16:15
+    Author     : Fabianno
+*/
+
+.pane {
+  -fx-background-image: url(/imagenes/Image0.png);
+  -fx-background-repeat: no-repeat;
+  -fx-background-size: cover;
+  -fx-background-position: center center;
+}
+
+.menu-bar {
+  -fx-background-color: linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%);
+  -fx-font-size: 18 pt;
+}
+
+.menu-bar > .container > .menu {
+  -fx-background-color: transparent;
+}
+
+.menu-bar > .container > .menu:hover > .label {
+  -fx-text-fill: rgb(57, 177, 0);
+}
+
+.menu-bar > .container > .menu:showing > .label {
+  -fx-text-fill: rgb(35, 108, 0);
+}
+
+.context-menu {
+  -fx-background-color: rgb(238, 223, 0);
+}
+
+.menu-item:focused{
+  -fx-background-color: #5EB400;
+}
+
+.menu-button {
+  -fx-background-color: linear-gradient(#ffd65b, #e68400),
+    linear-gradient(#ffef84, #f2ba44), linear-gradient(#ffea6a, #efaa22),
+    linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+    linear-gradient(
+      from 0% 0% to 15% 50%,
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0)
+    );
+  -fx-font-size: 18 pt;
+}

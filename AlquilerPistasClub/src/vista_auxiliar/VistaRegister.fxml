@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.text.Font?>
+
+<TilePane fx:id="pane" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="817.0" prefWidth="689.0" styleClass="tile-pane" stylesheets="@../css/ReservarPistaHorario.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador_auxiliar.VistaRegisterController">
+   <children>
+      <GridPane alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="818.0" prefWidth="697.0" styleClass="pane">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="82.79998779296875" minWidth="10.0" prefWidth="36.4000244140625" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="143.5999755859375" minWidth="10.0" prefWidth="108.2" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="128.0" minWidth="10.0" prefWidth="128.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="111.79998779296875" minWidth="10.0" prefWidth="110.20001220703125" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="121.80001831054688" minWidth="10.0" prefWidth="121.80001831054688" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="141.0000610351562" minWidth="10.0" prefWidth="126.20000000000005" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="88.20001220703125" minWidth="10.0" prefWidth="35.799999999999955" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="68.99997558593753" minHeight="10.0" prefHeight="67.40000000000003" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="61.59995117187498" minHeight="10.0" prefHeight="29.600000000000023" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="63.60001220703123" minHeight="10.0" prefHeight="61.80001220703127" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="30.600012207031227" minHeight="10.0" prefHeight="28.199987792968727" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label text="Nombre:" textFill="#777777" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Apellidos:" textFill="#777777" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Nombre de usuario:" textFill="#777777" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Contraseña:" textFill="#777777" GridPane.columnIndex="1" GridPane.rowIndex="9">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="*Tarjeta de crédito:" textFill="#777777" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="11">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Teléfono:" textFill="#777777" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="*Imagen &#10;de perfil:" textFill="#777777" GridPane.columnIndex="1" GridPane.rowIndex="14" GridPane.rowSpan="2" GridPane.valignment="TOP">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <TextField fx:id="nameField" alignment="CENTER_RIGHT" maxWidth="1.7976931348623157E308" prefHeight="30.0" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+            <TextField fx:id="lastNameField" alignment="CENTER_RIGHT" maxWidth="1.7976931348623157E308" prefHeight="30.0" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="3" />
+            <TextField fx:id="phoneField" alignment="CENTER_RIGHT" maxWidth="1.7976931348623157E308" prefHeight="30.0" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="5" />
+            <TextField fx:id="userField" alignment="CENTER_RIGHT" maxWidth="1.7976931348623157E308" prefHeight="30.0" prefWidth="218.0" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="7" />
+            <TextField fx:id="passwordField" alignment="CENTER_RIGHT" maxWidth="1.7976931348623157E308" prefHeight="30.0" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="9" />
+            <TextField fx:id="creditCardField" alignment="CENTER_RIGHT" maxWidth="1.7976931348623157E308" prefHeight="30.0" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="11" />
+            <Label text="Los campos opcionales tienen el símbolo *" textFill="#7f7e7e" GridPane.columnIndex="1" GridPane.columnSpan="5" GridPane.halignment="CENTER" GridPane.rowIndex="18" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="*Código de seguridad (SVC):" textFill="#777777" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="12">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="svcField" alignment="CENTER_RIGHT" maxWidth="1.7976931348623157E308" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="5" GridPane.rowIndex="12" />
+            <Label id="warning-label" fx:id="userState" alignment="CENTER_RIGHT" contentDisplay="RIGHT" maxWidth="1.7976931348623157E308" textAlignment="RIGHT" textFill="#df0000" GridPane.columnIndex="1" GridPane.columnSpan="5" GridPane.rowIndex="8" GridPane.valignment="TOP">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label id="warning-label" fx:id="passState" alignment="CENTER_RIGHT" contentDisplay="RIGHT" maxWidth="1.7976931348623157E308" textAlignment="RIGHT" textFill="#df0000" GridPane.columnIndex="1" GridPane.columnSpan="5" GridPane.rowIndex="10" GridPane.valignment="TOP">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label id="warning-label" fx:id="creditCardState" alignment="CENTER_RIGHT" contentDisplay="RIGHT" maxWidth="1.7976931348623157E308" textAlignment="RIGHT" textFill="#df0000" GridPane.columnIndex="1" GridPane.columnSpan="5" GridPane.rowIndex="13" GridPane.valignment="TOP">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label id="warning-label" fx:id="nameState" alignment="CENTER_RIGHT" contentDisplay="RIGHT" maxWidth="1.7976931348623157E308" textAlignment="RIGHT" textFill="#df0000" GridPane.columnIndex="1" GridPane.columnSpan="5" GridPane.rowIndex="2" GridPane.valignment="TOP">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label id="warning-label" fx:id="lastNameState" alignment="CENTER_RIGHT" contentDisplay="RIGHT" maxWidth="1.7976931348623157E308" textAlignment="RIGHT" textFill="#df0000" GridPane.columnIndex="1" GridPane.columnSpan="5" GridPane.rowIndex="4" GridPane.valignment="TOP">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label id="warning-label" fx:id="phoneState" alignment="CENTER_RIGHT" contentDisplay="RIGHT" maxWidth="1.7976931348623157E308" textAlignment="RIGHT" textFill="#df0000" GridPane.columnIndex="1" GridPane.columnSpan="5" GridPane.rowIndex="6" GridPane.valignment="TOP">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button defaultButton="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#acceptHandler" text="Aceptar" textFill="#616161" GridPane.columnIndex="3" GridPane.rowIndex="20" />
+            <Button cancelButton="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#cancelHandler" text="Cancelar" textFill="#4c4c4c" GridPane.columnIndex="5" GridPane.rowIndex="20" />
+            <Separator maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.columnSpan="5" GridPane.rowIndex="2" />
+            <Separator maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.columnSpan="5" GridPane.rowIndex="4" />
+            <Separator maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.columnSpan="5" GridPane.rowIndex="6" />
+            <Separator maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.columnSpan="5" GridPane.rowIndex="8" />
+            <Separator maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.columnSpan="5" GridPane.rowIndex="10" />
+            <Separator maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.columnSpan="5" GridPane.rowIndex="13" />
+            <Separator maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.columnSpan="5" GridPane.rowIndex="19" />
+            <Separator prefWidth="200.0" GridPane.columnIndex="1" GridPane.columnSpan="5" GridPane.rowIndex="17" GridPane.valignment="BOTTOM" />
+            <HBox alignment="TOP_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" nodeOrientation="LEFT_TO_RIGHT" spacing="10.0" GridPane.columnIndex="1" GridPane.columnSpan="5" GridPane.rowIndex="16">
+               <children>
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonImageHandler">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../imagenes/woman.PNG" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonImageHandler">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../imagenes/woman2.PNG" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonImageHandler">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../imagenes/woman3.PNG" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonImageHandler">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../imagenes/woman4.PNG" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonImageHandler">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../imagenes/woman5.PNG" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonImageHandler">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../imagenes/woman6.PNG" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="buttonImageOtra" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonImageHandler" opacity="0.9" prefHeight="58.0" prefWidth="97.0" text="Otra&#10;Imagen" textAlignment="CENTER" wrapText="true" />
+               </children>
+            </HBox>
+            <HBox alignment="TOP_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="10.0" GridPane.columnIndex="2" GridPane.columnSpan="4" GridPane.rowIndex="14">
+               <children>
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonImageHandler">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../imagenes/men.PNG" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonImageHandler">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../imagenes/men2.PNG" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonImageHandler">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../imagenes/men3.PNG" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonImageHandler">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../imagenes/men4.PNG" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonImageHandler">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../imagenes/men5.PNG" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </GridPane>
+   </children>
+</TilePane>
