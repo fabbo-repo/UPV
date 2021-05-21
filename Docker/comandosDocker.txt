@@ -1,0 +1,28 @@
+Iniciar docker:
+-> systemctl start docker
+
+Ver imagenes en docker:
+-> docker images
+
+Eliminar imagenes del docker
+-> docker rmi $(docker images -q)
+* -q obtiene los ids
+
+Ver contenedores
+-> docker ps -a
+
+Detener contenedores
+-> docker stop $(sudo docker ps -a -q)
+* -q obtiene los ids
+
+Iniciar contenedor detenido
+-> docker start CONTAINER_ID
+* CONTAINER_ID corresponde a la id del contenedor
+
+Vaciar lista de contenedores
+-> docker rm $(sudo docker ps -a -q)
+* -q obtiene los ids
+
+Acceder a un contenedor
+-> sudo docker attach CONTAINER_ID
+* CONTAINER_ID corresponde a la id del contenedor
