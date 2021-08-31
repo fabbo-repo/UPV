@@ -1,0 +1,27 @@
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\bin\Debug\GestDepServicesTest.dll
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\bin\Debug\GestDepServicesTest.pdb
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\bin\Debug\GestDepLibrary.dll
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\bin\Debug\EntityFramework.dll
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\bin\Debug\GestDepLibrary.pdb
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\bin\Debug\GestDepLibrary.dll.config
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\bin\Debug\EntityFramework.xml
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\obj\Debug\GestDepServicesTest.csprojAssemblyReference.cache
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\obj\Debug\GestDepServicesTest.csproj.CoreCompileInputs.cache
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\obj\Debug\GestDepServicesTest.csproj.CopyComplete
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\obj\Debug\GestDepServicesTest.dll
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\obj\Debug\GestDepServicesTest.pdb
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\bin\Debug\GestDepServicesTest.dll.config
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jorge\source\repos\proyectoISW\ProyectoPrácticas\GestDepServicesTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\UPV\Tercer Año\ISW\Practica\pract5\GestDepServicesTest\obj\Debug\GestDepServicesTest.dll
+D:\UPV\Tercer Año\ISW\Practica\pract5\GestDepServicesTest\obj\Debug\GestDepServicesTest.pdb
