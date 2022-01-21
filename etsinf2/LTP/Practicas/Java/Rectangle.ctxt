@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Rectangle
+comment0.text=\r\n\ class\ Rectangle.\r\n\ \r\n\ @author\ Fabianno\r\n\ @version\ 2018-19\r\n
+comment1.params=x\ y\ b\ h
+comment1.target=Rectangle(double,\ double,\ double,\ double)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=o
+comment3.target=boolean\ equals(java.lang.Object)
+comment4.params=
+comment4.target=double\ area()
+comment5.params=o
+comment5.target=int\ compareToRange(java.lang.Object)
+comment6.params=c
+comment6.target=void\ print(char)
+comment6.text=Figura\ 3.\ c\u00F3digo\ para\ dibujar\ rect\u00E1ngulos
+numComments=7

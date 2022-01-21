@@ -1,0 +1,104 @@
+### ESTRUCTURA DE COMPUTADORES (ETS Eng. Inf.)
+##  
+## marzo de 2014
+##
+## PR�CTICA 13: SINCRONIZACI�N POR INTERRUPCIONES
+##
+## C�digo inicial del manejador
+
+
+##############################################################
+##              �REA DE DATOS DEL MANEJADOR                 ##
+##############################################################
+
+			.kdata
+var1:	.word 0xFFFFFFFF
+contexto: .word 0,0,0,0 # para salvar $at,$t0,$a0 y $v0
+
+#############################################################
+##                  C�DIGO DEL MANEJADOR                   ##
+#############################################################
+
+.ktext 0x80000080
+
+    ## Preserva el contexto del programa de usuario
+    .set noat
+    sw $at, 0($k1) # Salvo $at
+    .set at
+    sw $t0, 4($k1) # Salvo $t0
+    sw $a0, 8($k1) # Salvo $a0
+    sw $v0, 12($k1) # Salvo $v0
+
+    ## Identifica y trata excepciones
+    mfc0 $k0, $13 # Lee registro de Causa
+    andi $t0, $k0, 0x003c # Aísla los bits 2,3,4,5
+    bne $t0, $zero, retexc # Compara con 0 y salta si no son iguales
+    
+    ## Causa por interrupción
+    andi $t0, $k0, 0x400 # miro int0
+    bne $t0, $zero, int0
+    andi $t0, $k0, 0x1000 # miro int2
+    bne $t0, $zero, int2
+    b retexc
+
+int0:
+    li $v0,11 
+    li $a0, '*'
+    syscall
+    
+    li $t0, 0xffff0000
+    lw $a0, 4($t0)
+    b retexc
+
+int2:
+    li $t0, 0xffff0010
+    li $t1, 0x1
+    sw $t1, 0($t0) # Cancela la interrupción pero deja habilitadas las interrupciones del reloj
+    b retexc
+    
+retexc:    
+    ## Restaura el contexto
+    .set noat
+    lw $at, 0($k1) # Resturo $at
+    .set at
+    lw $t0, 4($k1) # Restauro $t0
+    lw $a0, 8($k1) # Restauro $a0
+    lw $v0, 12($k1) # Restauro $v0
+
+    ## Restaura el modo usuario y vuelve al programa
+    mfc0 $k0, $14
+	rfe
+	jr $k0 
+
+#############################################################
+##                    C�DIGO DE INICIO                     ##
+#############################################################
+
+          .text
+          .globl __start 
+__start: 
+    ## C�digo de inicio
+    ## Habilitar interrupciones para el teclado
+    li $t0, 0xffff0000 # registro de estado/órdenes del teclado
+    li $t1, 0x2
+    sw $t1, 0($t0) # Habilita las interrupciones en el registro de estado/órdenes del teclado
+
+    ## Habilitar interrupciones para el reloj
+    li $t0, 0xffff0010 # registro de estado/órdenes del reloj
+    li $t1, 0x1
+    sw $t1, 0($t0) # Habilita las interrupciones en el registro de estado/órdenes del reloj
+
+    mfc0 $t0, $12
+    ori $t0, $t0, 0x503
+    mtc0 $t0, $12
+
+
+    la $k1, contexto
+    
+    ## Salto al programa de usuario
+	jal main
+
+    ## C�digo de terminaci�n
+	li $v0, 10
+	syscall	 # Funci�n exit
+

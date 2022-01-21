@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=BuscadorDeLaBibl
+comment0.text=\r\n\ BuscadorDeLaBibl\:\ clase\ que\ representa\ un\ Buscador\ eficiente,\ i.e.\ con\r\n\ un\ Indice,\ de\ una\ biblioteca\ digital.\ Por\ ello,\ su\ funcionalidad\ basica\r\n\ es...\r\n\ 1.-\ Crear\ el\ Indice\ de\ la\ biblioteca,\ representado\ mediante\ un\ Map\ \r\n\ \ \ \ \ que\ se\ implementa\ mediante\ una\ Tabla\ Hash\ Enlazada\r\n\ 2.-\ Recuperar\ la\ informacion\ que\ exista\ sobre\ una\ palabra\ dada\r\n\ \ \ \ \ (Posting\ List)\ en\ la\ biblioteca,\ buscandola\ en\ su\ Indice.\r\n\ \r\n\ @author\ (EDA)\ \r\n\ @version\ (Curso\ 2019-2020)\r\n
+comment1.params=
+comment1.target=BuscadorDeLaBibl()
+comment1.text=\ Crea\ el\ Buscador\ de\ la\ bibliotecta\ digital\ que\ forman\ los\ libros\ de\ \r\n\ \ listaLibros.\ Basicamente,\ ello\ supone\ crear\ el\ Indice\ de\ la\ biblioteca\ \r\n\ \ con,\ como\ maximo,\ maxTerminos.\ Si\ no\ encuentra\ (el\ fichero\ .txt\ de)\ un\ \r\n\ \ libroLanza\ FileNotFoundException\ para\ advertirlo.\r\n
+comment2.params=fichLibro
+comment2.target=boolean\ indexarLibro(java.lang.String)
+comment2.text=\ Devuelve\ true\ tras\ actualizar\ el\ Buscador\ de\ una\ bibilioteca\ digital\r\n\ \ con\ los\ terminos\ que\ contiene\ fichLibro\ (fichero\ .txt).\ Basicamente,\ \ \r\n\ \ ello\ supone\ actualizar\ el\ Indice\ de\ la\ biblioteca\ con\ los\ terminos\ de\ \r\n\ \ fichlibro.\r\n\ \ El\ metodo\ devuelve\ false\ si\ fichlibro\ no\ existe.\r\n
+comment3.params=unaPalabra
+comment3.target=java.lang.String\ buscar(java.lang.String)
+comment3.text=\r\n\ Devuelve\ en\ formato\ texto\ (String)\ el\ resultado\ de\ la\ busqueda\ del\ termino\r\n\ asociado\ a\ unaPalabra\ en\ el\ Indice\ de\ una\ biblioteca\ digital\ (frecuencia\ de\ \r\n\ aparicion\ del\ termino\ y,\ en\ su\ caso,\ el\ listado\ que\ contiene\ los\ titulos\ y\ \r\n\ lineas\ de\ los\ libros\ de\ la\ bibiblioteca\ en\ los\ que\ aparece,\ i.e.\ su\ Posting\ List).\r\n
+comment4.params=unaPalabra
+comment4.target=boolean\ esTermino(java.lang.String)
+comment4.text=\ Comprueba\ si\ unaPalabra\ es\ un\ termino\ del\ Indice\ de\ una\ biblioteca\ \r\n\ \ digital,\ i.e.\ si\ unaPalabra\ esta\ formada\ por\ letras\ del\ alfabeto\ \r\n\ \ castellano\ en\ minusculas.\r\n
+comment5.params=
+comment5.target=librerias.estructurasDeDatos.modelos.ListaConPI\ terminosUnicos()
+comment5.text=\ Devuelve\ una\ ListaConPI\ con\ los\ terminos\ de\ una\ biblioteca\ digital\ que\ \r\n\ \ solo\ aparecen\ una\ vez\ en\ uno\ de\ sus\ libros,\ o\ null\ si\ no\ existe\ ninguno.\r\n
+numComments=6

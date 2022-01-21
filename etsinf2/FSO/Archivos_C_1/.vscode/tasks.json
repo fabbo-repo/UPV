@@ -1,0 +1,23 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compilar archivo C",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g", 
+                "holamundo.c", 
+                "-o", 
+                "holamundo.c.exe"
+            ]
+        },
+        {
+            "label": "Ejecutar archivo C",
+            "type": "shell",
+            "command": ".\\holamundo.c.exe"
+        }
+    ]
+}

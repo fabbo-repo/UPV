@@ -1,0 +1,78 @@
+---$ ps u
+(Permite listar información sobre la ejecución de los procesos de linux)
+
+PID-numero de identificador del proceso
+PPID-numero del padre del proceso
+UID-Usuario propietario del proceso
+TTY-Terminal asociada al proceso.
+
+1) -ps       (PID,TTY,TIME,CMD)
+   -ps u     (USER,PID,%CPU,%MEM,VSZ,RSS,TTY,STAT,START,TIME,COMMAND)
+   -ps -la   (F,S,UID,PID,PPID,C,PRI,NI,ADDR,SZ,WCHAN,TTY,TIME,CMD)
+   -ps f     (PID,TTY,STAT,TIME,COMMAND)
+   -ps aux   (USER,PID,%CPU,%MEM,VSZ,RSS,TTY,STAT,START,TIME,COMMAND)(permite ver todos los procesos del sistema)
+
+2)$ yes >/dev/null &
+  $ ps -la                 //Verificar que yes se ejecuta en background y ver su PID
+  $ kill -SIGKILL 1907     //1907 indica el PID de yes, también en vez de -SIGKILL puede ser -9
+  $ ps -la                 //Verificar que yes ya no se ejecuta  
+  
+3)$ yes >/dev/null &
+  $ yes >/dev/null &
+  $ yes >/dev/null &
+  $ ps -la
+  $ killall yes
+  $ ps -la
+
+4)$ kate &
+  $ kill -9 1921
+  $ ps
+
+5)$ ls/proc
+  $ ls/proc/$pid_bash    //Vemos que existe un PID similar al del shell con ps
+  $ ps
+
+6)$ grep -i mhz /proc/cpuinfo    //Muestra la frecuencia del procesador
+
+7)$ grep -i "cache size" /proc/cpuinfo    //Muestra el tamaño del cache del procesador
+
+8)Ya ha sido creado (content)
+  $chmod +x content
+  $ls -la    //Verificar que tiene permisos de ejecución
+  $./content
+
+9)Ya ha sido creado (arguments)
+
+10)Ya ha sido creado (my_process)
+   $./my_process 15 o $./my_process 0
+
+11)Ya ha sido creado (borrar_fichero)
+   $./borrar_fichero hola
+
+12)$ awk '/root/ {print}' /etc/passwd
+   root:x:0:0:root:/root:/bin/bash
+
+13)Ya ha sido creado (inf_process)
+   $./inf_process 1881
+
+14)
+
+Optativo)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

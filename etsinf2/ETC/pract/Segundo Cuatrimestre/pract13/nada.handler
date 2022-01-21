@@ -1,0 +1,53 @@
+### ESTRUCTURA DE COMPUTADORES (ETS Eng. Inf.)
+##  
+## marzo de 2014
+##
+## PR�CTICA 13: SINCRONIZACI�N POR INTERRUPCIONES
+##
+## C�digo inicial del manejador
+
+
+##############################################################
+##              �REA DE DATOS DEL MANEJADOR                 ##
+##############################################################
+
+			.kdata
+var1:	.word 0xFFFFFFFF
+
+#############################################################
+##                  C�DIGO DEL MANEJADOR                   ##
+#############################################################
+
+.ktext 0x80000080
+
+    ## Preserva el contexto del programa de usuario
+    ## (nada de momento)
+
+    ## Identifica y trata excepciones
+    ## (nada de momento)
+
+    ## Restaura el contexto
+    ## (nada de momento)
+
+    ## Restaura el modo usuario y vuelve al programa
+    ## (falta algo)
+	rfe
+	jr $k0 
+
+#############################################################
+##                    C�DIGO DE INICIO                     ##
+#############################################################
+
+          .text
+          .globl __start 
+__start: 
+    ## C�digo de inicio
+    ## (nada de momento)
+
+    ## Salto al programa de usuario
+	jal main
+
+    ## C�digo de terminaci�n
+	li $v0, 10
+	syscall	 # Funci�n exit
+

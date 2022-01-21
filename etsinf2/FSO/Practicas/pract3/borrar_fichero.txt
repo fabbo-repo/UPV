@@ -1,0 +1,14 @@
+#!/bin/bash
+# borrar_fichero
+fichero = $1
+if test $(ls | grep $1 | wc -l) -ne 0
+then
+   if test -d $fichero
+   then
+     echo "$fichero es un directorio y no se puede borrar"
+   else
+     rm $fichero
+   fi
+else 
+   echo "Fichero no existe"
+fi

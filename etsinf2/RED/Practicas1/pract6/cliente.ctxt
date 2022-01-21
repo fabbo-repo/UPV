@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=cliente
+comment1.params=
+comment1.target=void\ main()
+comment2.params=s
+comment2.target=cliente(java.net.Socket)
+comment3.params=
+comment3.target=void\ run()
+numComments=4

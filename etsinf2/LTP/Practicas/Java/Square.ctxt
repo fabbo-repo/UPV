@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Square
+comment0.text=\r\n\ class\ Square.\r\n\ \r\n\ @author\ Fabianno\r\n\ @version\ 2018-19\r\n
+comment1.params=x\ y\ l
+comment1.target=Square(double,\ double,\ double)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=o
+comment3.target=boolean\ equals(java.lang.Object)
+numComments=4

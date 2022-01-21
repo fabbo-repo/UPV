@@ -1,0 +1,8 @@
+#!/bin/bash
+#inf_process
+
+echo -e "PID\tPPID\tESTADO\tCOMANDO"
+ppid=$(awk '/PPid/ {print $2}' /proc/$1/status)
+state=$(awk '/State/ {print $2}' /proc/$1/status)
+comand=$(awk '{print}' /proc/$1/cmdline)
+echo -e "$1\t$ppid\t$state\t$comand"
