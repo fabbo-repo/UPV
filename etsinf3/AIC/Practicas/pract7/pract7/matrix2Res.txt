@@ -1,0 +1,8 @@
+ijk:	n = 1024, 0.038 Gflop/s
+ikj:	n = 1024, 0.012 Gflop/s
+jik:	n = 1024, 0.031 Gflop/s
+jki:	n = 1024, 0.609 Gflop/s
+kij:	n = 1024, 0.012 Gflop/s
+kji:	n = 1024, 0.520 Gflop/s
+
+

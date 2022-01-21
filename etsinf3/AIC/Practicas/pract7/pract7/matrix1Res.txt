@@ -1,0 +1,10 @@
+n = 8, 0.171 Gflop/s
+n = 16, 0.390 Gflop/s
+n = 32, 0.482 Gflop/s
+n = 64, 0.476 Gflop/s
+n = 128, 0.646 Gflop/s
+n = 256, 0.670 Gflop/s
+n = 512, 0.323 Gflop/s
+n = 1024, 0.037 Gflop/s
+n = 2048, 0.038 Gflop/s
+
