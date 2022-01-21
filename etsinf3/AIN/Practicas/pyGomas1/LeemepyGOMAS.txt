@@ -1,0 +1,12 @@
+1- Abrir Anaconda Navigator
+2- Crear entorno con python 3.7
+3- Abrir una terminal en dicho entorno y poner los siguientes comandos:
+	pip install pygomas
+	pip install windows_curses
+4- En 3 terminales ejecutar:
+	pygomas manager -j fasccar_manager@gtirouter.dsic.upv.es -m map_01 -sj fasccar_service@gtirouter.dsic.upv.es -np 6
+	pygomas run -g troops.json
+	pygomas render o pygomas render --text
+
+	(troops.json es un ejemplo de agente de tipo tropa, se puede usar ejemplo.json o ejemplo1.json, 
+	al ejecutar el comando pygomas help run se crea un ejemplo básico de json)

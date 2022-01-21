@@ -1,0 +1,21 @@
+- Ejecución 1:
+	map_01, 8 soldados 
+	-> 
+		Aliados: soldados: 1, medicos: 2, operador de campo: 1
+		Eje: soldados: 1, medicos: 2, operador de campo: 1
+pygomas manager -j fasccar_manager@gtirouter.dsic.upv.es -m map_01 -sj fasccar_service@gtirouter.dsic.upv.es -np 8
+	
+- Ejecución 2:
+	map_04, 12 soldados 
+	-> 
+		Aliados: soldados: 4, medicos: 2, operador de campo: 2
+		Eje: soldados: 2, medicos: 1, operador de campo: 1
+pygomas manager -j fasccar_manager@gtirouter.dsic.upv.es -m map_04 -sj fasccar_service@gtirouter.dsic.upv.es -np 12
+	
+- Ejecución 3:
+	map_08, 20 soldados 
+	-> 
+		Aliados: soldados: 6, medicos: 2, operador de campo: 2
+		Eje: soldados: 8, medicos: 1, operador de campo: 1
+pygomas manager -j fasccar_manager@gtirouter.dsic.upv.es -m map_08 -sj fasccar_service@gtirouter.dsic.upv.es -np 20
+	

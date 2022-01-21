@@ -1,0 +1,6 @@
+Secuencial
+Tiempo de ejecución: 7.111248
+
+                   		Version1	Version2	Version3	Version4
+Numero de hilos: 2		78.271		8.304		3.514		3.418
+Numero de hilos: 4		122.406		8.555		1.782		1.748

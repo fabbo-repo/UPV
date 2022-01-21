@@ -1,0 +1,12 @@
+
+Total accumulated error: 0.000000
+Tiempo: 2812.294006 ms (8 procesos)
+
+Total accumulated error: 0.000000
+Tiempo: 2337.337971 ms (8 procesos)
+
+Total accumulated error: 0.000000
+Tiempo: 1693.423033 ms (16 procesos)
+
+Total accumulated error: 0.000000
+Tiempo: 1615.687847 ms (16 procesos)

@@ -1,0 +1,53 @@
+{
+    "host": "gtirouter.dsic.upv.es",
+    "manager": "manager_lissu_fasccar",
+    "manager_password": "secret",
+    "service": "service_lissu_fasccar",
+    "service_password": "secret",
+    "axis": [
+		{
+            "rank": "lissu_fasccar_fextS.LissuFasccarSoldier",
+            "name": "soldier_axis_lissu_fasccar",
+            "password": "secret",
+            "amount": 7,
+            "asl": "lissu_fasccar_soldier.asl"
+        },
+        {
+            "rank": "BDIMedic",
+            "name": "medic_axis_lissu_fasccar",
+            "password": "secret",
+            "amount": 2,
+            "asl": "lissu_fasccar_medic.asl"
+        },
+         {
+            "rank": "BDIFieldOp",
+            "name": "fieldop_axis_lissu_fasccar",
+            "password": "secret",
+            "amount": 1,
+            "asl": "lissu_fasccar_fieldop.asl"
+        }
+    ],
+     "allied": [
+		{
+            "rank": "BDISoldier",
+            "name": "soldier_allied_Prueba",
+            "password": "secret",
+            "amount": 9,
+            "asl": "bdisoldier.asl"
+        },
+        {
+            "rank": "BDIMedic",
+            "name": "medic_allied_Prueba",
+            "password": "secret",
+            "amount": 1,
+            "asl": "bdimedic.asl"
+        },
+         {
+            "rank": "BDIFieldOp",
+            "name": "fieldop_allied_Prueba",
+            "password": "secret",
+            "amount": 0,
+            "asl": "bdifieldop.asl"
+        }
+   ]
+  }

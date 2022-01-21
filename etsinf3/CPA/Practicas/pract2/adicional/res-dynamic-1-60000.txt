@@ -1,0 +1,35 @@
+Resultado de ejecución de planets2i con DYNAMIC,1:  (2,4,8,16,32 hilos)
+-----------------------------------------------
+Numero de hilos: 2
+Tiempo de ejecución empleado en process_data: 25.803265
+-----------------------------------------------
+Numero de hilos: 4
+Tiempo de ejecución empleado en process_data: 12.826434
+-----------------------------------------------
+Numero de hilos: 8
+Tiempo de ejecución empleado en process_data: 6.829107
+-----------------------------------------------
+Numero de hilos: 16
+Tiempo de ejecución empleado en process_data: 4.038193
+-----------------------------------------------
+Numero de hilos: 32
+Tiempo de ejecución empleado en process_data: 2.302152
+
+
+Resultado de ejecución de planets2j con DYNAMIC,1:  (2,4,8,16,32 hilos)
+-----------------------------------------------
+Numero de hilos: 2
+Tiempo de ejecución empleado en process_data: 233.511961
+-----------------------------------------------
+Numero de hilos: 4
+Tiempo de ejecución empleado en process_data: 259.286751
+-----------------------------------------------
+Numero de hilos: 8
+Tiempo de ejecución empleado en process_data: 264.063128
+-----------------------------------------------
+Numero de hilos: 16
+Tiempo de ejecución empleado en process_data: 306.305855
+-----------------------------------------------
+Numero de hilos: 32
+Tiempo de ejecución empleado en process_data: 314.502746
+

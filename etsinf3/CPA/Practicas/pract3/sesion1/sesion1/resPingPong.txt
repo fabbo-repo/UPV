@@ -1,0 +1,9 @@
+Memoria Compartida:
+kahan06
+kahan06
+Tiempo promedio: 0.483274 ms
+
+Red Infinity Band:
+kahan06
+kahan05
+Tiempo promedio: 8.729590 ms

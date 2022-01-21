@@ -1,0 +1,32 @@
+{
+    "host": "gtirouter.dsic.upv.es",
+    "manager": "manager_lissu_fasccar",
+    "manager_password": "secret",
+    "service": "service_lissu_fasccar",
+    "service_password": "secret",
+    "axis": [
+		{
+            "rank": "BDISoldier",
+            "name": "luchador_lissu_fasccar",
+            "password": "secret",
+            "amount": 1,
+            "asl": "test.asl"
+        }
+    ],
+     "allied": [
+                {
+            "rank": "invencibleM.BDIMInvencible",
+            "name": "medic_lissu_fasccar",
+            "password": "secret",
+            "amount": 1,
+            "asl": "medic_arena.asl"
+        }, 
+        {
+            "rank": "invencibleF.BDIFInvencible",
+            "name": "fieldop_lissu_fasccar",
+            "password": "secret",
+            "amount": 3,
+            "asl": "fieldop_arena.asl"
+        }
+   ]
+  }

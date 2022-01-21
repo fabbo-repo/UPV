@@ -1,0 +1,18 @@
+1. Ejecuta tu programa con la estrategia de anchura y escribe el nivel donde encuentra la solución y el número de nodos expandidos.
+
+Respuesta:
+	Anchura: No solucion Número de nodos: 1576
+
+2. Escoge un nivel de profundidad máximo, ejecuta tu programa con la estrategia de profundidad y escribe el nivel escogido, el nivel 
+donde encuentra la solución y el número de nodos expandidos.
+
+Respuesta:
+	Anchura:
+	Profundidad:
+
+3. Supongamos que en el escenario del dragón dado arriba incluimos un número indeterminado (1,2,3,….,n) de cajas en el grid. 
+Asumiendo que escogemos el nivel de profundidad adecuado, ¿crees que el problema tendría solución? ¿por qué? Justifica tu respuesta.
+
+Respuesta:
+	El problema podría no tener solución ya que si la cantidad de enemigos es alta, el robot podría quedarse sin balas y sin poder llegar a recoger las n cajas,
+	al igual que puede que no hayan suficientes escaleras.

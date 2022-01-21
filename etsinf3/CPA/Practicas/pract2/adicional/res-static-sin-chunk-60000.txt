@@ -1,0 +1,37 @@
+
+Resultado de ejecución de planets2i con STATIC SIN CHUNK:  (2,4,8,16,32 hilos)
+-----------------------------------------------
+Numero de hilos: 2
+Tiempo de ejecución empleado en process_data: 38.269835
+-----------------------------------------------
+Numero de hilos: 4
+Tiempo de ejecución empleado en process_data: 22.434614
+-----------------------------------------------
+Numero de hilos: 8
+Tiempo de ejecución empleado en process_data: 12.316719
+-----------------------------------------------
+Numero de hilos: 16
+Tiempo de ejecución empleado en process_data: 7.080434
+-----------------------------------------------
+Numero de hilos: 32
+Tiempo de ejecución empleado en process_data: 3.987889
+
+
+Resultado de ejecución de planets2j con STATIC SIN CHUNK:  (2,4,8,16,32 hilos)
+-----------------------------------------------
+Numero de hilos: 2
+Tiempo de ejecución empleado en process_data: 26.158220
+-----------------------------------------------
+Numero de hilos: 4
+Tiempo de ejecución empleado en process_data: 13.267648
+-----------------------------------------------
+Numero de hilos: 8
+Tiempo de ejecución empleado en process_data: 7.533107
+-----------------------------------------------
+Numero de hilos: 16
+Tiempo de ejecución empleado en process_data: 5.326648
+-----------------------------------------------
+Numero de hilos: 32
+Tiempo de ejecución empleado en process_data: 4.218168
+
+

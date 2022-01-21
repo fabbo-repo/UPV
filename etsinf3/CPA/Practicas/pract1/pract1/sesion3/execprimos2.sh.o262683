@@ -1,0 +1,25 @@
+primo_numeros_secuencial:
+
+Tiempo de ejecución: 289.621217
+Entre el 1 y el 100000000 hay 5761456 numeros primos.
+
+-----------------------------------------------------
+
+primo_numeros estático sin tamaño de chunk:
+
+Tiempo de ejecución: 184.730826
+Entre el 1 y el 100000000 hay 5761456 numeros primos.
+
+-----------------------------------------------------
+
+primo_numeros estático con tamaño de chunk 1:
+
+Tiempo de ejecución: 144.883162
+Entre el 1 y el 100000000 hay 5761456 numeros primos.
+
+-----------------------------------------------------
+
+primo_numeros dinamico con tamaño de chunk 1:
+
+Tiempo de ejecución: 146.061345
+Entre el 1 y el 100000000 hay 5761456 numeros primos.

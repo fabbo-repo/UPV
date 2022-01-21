@@ -1,0 +1,5 @@
+pygomas run –g lissu_fasccar_config.json
+
+pygomas manager -np 20 -j manager_lissu_fasccar@gtirouter.dsic.upv.es -sj service_lissu_fasccar@gtirouter.dsic.upv.es -m map_01
+
+pygomas render

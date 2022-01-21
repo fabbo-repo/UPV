@@ -1,0 +1,5 @@
+1- Abrir Anaconda Navigator
+2- Crear entorno con python 3.7
+3- Abrir una terminal en dicho entorno y poner los siguientes comandos:
+	pip install spade_bdi
+	pip install windows_curses

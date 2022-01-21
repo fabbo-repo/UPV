@@ -1,0 +1,35 @@
+Resultado de ejecución de planets2i con GUIDED:  (2,4,8,16,32 hilos)
+-----------------------------------------------
+Numero de hilos: 2
+Tiempo de ejecución empleado en process_data: 38.330106
+-----------------------------------------------
+Numero de hilos: 4
+Tiempo de ejecución empleado en process_data: 22.493280
+-----------------------------------------------
+Numero de hilos: 8
+Tiempo de ejecución empleado en process_data: 12.616157
+-----------------------------------------------
+Numero de hilos: 16
+Tiempo de ejecución empleado en process_data: 7.133479
+-----------------------------------------------
+Numero de hilos: 32
+Tiempo de ejecución empleado en process_data: 3.858434
+
+
+Resultado de ejecución de planets2j con GUIDED:  (2,4,8,16,32 hilos)
+-----------------------------------------------
+Numero de hilos: 2
+Tiempo de ejecución empleado en process_data: 32.442535
+-----------------------------------------------
+Numero de hilos: 4
+Tiempo de ejecución empleado en process_data: 16.742436
+-----------------------------------------------
+Numero de hilos: 8
+Tiempo de ejecución empleado en process_data: 9.462175
+-----------------------------------------------
+Numero de hilos: 16
+Tiempo de ejecución empleado en process_data: 8.472743
+-----------------------------------------------
+Numero de hilos: 32
+Tiempo de ejecución empleado en process_data: 21.468187
+

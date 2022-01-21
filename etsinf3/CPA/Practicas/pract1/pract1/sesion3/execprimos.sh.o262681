@@ -1,0 +1,12 @@
+primo_grande_secuencial:
+
+Tiempo de ejecución: 55.642518
+El mayor primo que cabe en 8 bytes es 18446744073709551557.
+
+------------------------------------------------------------
+
+primo_grande:
+
+Tiempo de ejecución: 27.852521
+Numero de hilos: 2
+El mayor primo que cabe en 8 bytes es 18446744073709551557.
