@@ -1,0 +1,73 @@
+------------------------------------------------------------------------------------
+Publicador Rotatorio
+* Entender las diferentes formas de acceder a los parámetros por línea de órdenes.
+* Entender las diferencias entre "vectores" y "tablas hash"
+* Entender cómo subscribirse a las publicaciones.
+
+Código:
+- pub1.js: publicador que emplea un método de acceso a argumentos y tabla hash
+- pub2.js: publicador que emplea otro método de acceso a argumentso y vector.
+- pub3.js: acceso a argumentos mediante otro método
+- sub.js: subscriptor que se subscribe a lo que indiquemos por línea de órdenes.
+
+------------------------------------------------------------------------------------
+Aplicación de Chat.
+* Entender mediante qué combinaciones de sockets podemos hacer un aplicación distribuida como un simple Chat.
+* Código proporcionado: pub-sub + pull-push
+
+* Alternativa: dealer-router.
+- Dealer en clientes.
+- Router en servidor.
+- Cliente envía sus peticiones mediante dealer. Servidor las lee con router y GUARDA indentidad de los 
+clientes en tabla hash indexada por identidad de cliente.
+- Cuando el servidor recibe un chat de algún cliente, recorre la tabla hash y envía el mensaje de chat 
+a todos y cada uno de los clientes conectados. De esta forma 'simulamos' una publicación desde 1 a muchos.
+
+------------------------------------------------------------------------------------------
+Parametrización del broker y estadísticas
+* Entender las diferentes formas de acceder a línea de órdenes ya --> vista en el publicador rotatorio.
+* Manejar eventos periódicos y acceso a datos globales en tabla hash
+
+Código:
+- brokerEstadisticas.js: version con bastante "log" para ver la evolución del broker
+- brokerEstadisticas2.js: versión sin logs y empleo alternativo de la variable "totalW"
+- worker.js client.js: idénticos a los proporcionados en fuentes.zip.
+
+
+------------------------------------------------------------------------------------------
+Descomposición del broker en 2 mitades.
+* Entender alternativas de conexión entre los brokers. Qué combinación de sockets es válida 
+y porqué.
+* Llamemos broker1 al broker para clientes, broker2 al broker para workers.
+
+* Alternativas INCORRECTAS:
+- broker1 emplea REQ, broker2 emplea REP --> peticiones serían totalmente secuenciales.
+- broker1 emplea PUB o PUSH y broker2 PULL o SUB --> necesitamos un socket bi-direccional.
+- broker1 emplea DEALER, broker2 emplea ROUTER --> incorrecta SI el broker2 inicia la convesación. 
+Recordamos que ROUTER exije como primer argumento al send () la identidad del destinatario. Por tanto 
+habría que conocerla "a priori", si pretendemos hacer un "send()" antes de haber recibido la identidad por 
+la conexión.
+
+* Alternativas CORRECTAS:
+- broker1 emplea DEALER, broker2 emplea DEALER
+- broker1 emplea PULL y PUSH y broker2 emplea PULL y PUSH --> estamos construyendo un canal bidireccional 
+mediante 2 canales unidireccionales. Empleamos 2 sockets en lugar de uno.
+- broker1 emplea DEALER y broker2 emplea ROUTER. --> sólo es válida si hacemos una implementación alternativa 
+que garantiza que broker2 nunca INICIA la conversación.
+
+Código
+- bc.js: broker para clientes que mantiene un contador de workers.
+- bw.js: broker para workers que se limita a redirigir mensajes y mantener la lista de workers disponibles.
+- client.js y worker.js --> versiones ya proporcionadas, sin cambios.
+
+--------------------------
+Broker tolerante a fallos
+
+* Entender qué ocurre si falla un worker en el broker original.
+* Entender qué tipos de fallos soporta el broker tolerante a fallos --> Sólo fallos de workers.
+* Ententer el reenvío de mensajes con el temporizador --> setTimeout()
+* Entender cuándo y cómo se cancela el temporizador --> clearTimeout()
+* Entender que sería posible considerar que un worker ha fallado cuando simplemente ha tardado mucho en 
+contestar --> falso fallo
+* Entender cómo se descartan los mensajes en caso de fallos --> variable "failed"
+
