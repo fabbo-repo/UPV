@@ -1,0 +1,8 @@
+Soluciones:
+lpg-td.exe -o emisionesV_original.pddl -f problemfile1_original.pddl -n 1
+
+Quality:
+lpg-td.exe -o emisionesV_original.pddl -f problemfile1_original.pddl -quality
+
+Speed:
+lpg-td.exe -o emisionesV_original.pddl -f problemfile1_original.pddl -speed

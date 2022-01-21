@@ -1,0 +1,40 @@
+Con octave:
+
+// Cargar los datos de entrenamiento:
+> load data/hart/trlabels.dat
+> load data/hart/tr.dat
+
+// Ver tamaño de los datos
+> size(X)
+> size(xl)
+
+// Dibujar los datos:
+// X(:,1) -> coordenada x
+// X(:,2) -> coordenada y
+// "x" -> marca para denotar los puntos
+> plot( X(:,1), X(:,2), "x")
+
+// Dibujar los datos de distinto clase con distinto color
+> plot( X(xl==1,1), X(xl==1,2), "x", X(xl==2,1), X(xl==2,2), "s")
+o
+> plot( X(xl==1,1), X(xl==1,2), "o", X(xl==2,1), X(xl==2,2), "s")
+
+// Entrenamiento de un modelo con kernel 2 (radial/gaussiano) y calor de C=1
+res = svmtrain(xl, X, '-t 2 -c 1');
+
+// Activar paso de página, para salidas largas
+more on
+
+// Obtener los tres primeros vectores de soporte
+// (con full la mtriz dispersa pasa a ser una matriz normal)
+full(res.SVs([1,2,3], :))
+
+// Dibujar vectores de soporte:
+> plot( X(xl==1,1), X(xl==1,2), "o", X(xl==2,1), X(xl==2,2), "s", res.SVs(:,1), res.SVs(:,2), "xk")
+
+// Cargar los datos de test
+> load data/hart/tslabels.dat
+> load data/hart/ts.dat
+
+// Hallar tasa de acierto:
+> svmpredict(yl, Y, res, ' ');

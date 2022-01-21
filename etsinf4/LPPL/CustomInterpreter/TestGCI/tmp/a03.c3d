@@ -1,0 +1,37 @@
+  0 INCTOP              ,            ,  i:   0    
+  1 GOTOS               ,            ,  e:   2    
+  2 PUSHFP              ,            ,            
+  3 FPTOP               ,            ,            
+  4 INCTOP              ,            ,  i:  17    
+  5 EREAD               ,            ,  p: (1,  2)
+  6 EASIG     p: (1,  2),            ,  p: (1,  3)
+  7 EASIG     i:   7    ,            ,  p: (1,  4)
+  8 EMULT     p: (1,  3),  p: (1,  4),  p: (1,  5)
+  9 EASIG     p: (1,  5),            ,  p: (1,  0)
+ 10 EASIG     p: (1,  0),            ,  p: (1,  6)
+ 11 EASIG     i:   0    ,            ,  p: (1,  7)
+ 12 EASIG     i:   1    ,            ,  p: (1,  8)
+ 13 EMAYEQ    p: (1,  6),  p: (1,  7),  e:  15    
+ 14 EASIG     i:   0    ,            ,  p: (1,  8)
+ 15 EIGUAL    p: (1,  8),  i:   0    ,  e:  19    
+ 16 EASIG     i:   1    ,            ,  p: (1,  9)
+ 17 EASIG     p: (1,  9),            ,  p: (1,  1)
+ 18 GOTOS               ,            ,  e:  21    
+ 19 EASIG     i:   0    ,            ,  p: (1, 10)
+ 20 EASIG     p: (1, 10),            ,  p: (1,  1)
+ 21 EASIG     p: (1,  1),            ,  p: (1, 11)
+ 22 EASIG     i:   1    ,            ,  p: (1, 12)
+ 23 EASIG     i:   1    ,            ,  p: (1, 13)
+ 24 EIGUAL    p: (1, 11),  p: (1, 12),  e:  26    
+ 25 EASIG     i:   0    ,            ,  p: (1, 13)
+ 26 EIGUAL    p: (1, 13),  i:   0    ,  e:  30    
+ 27 EASIG     i:   1    ,            ,  p: (1, 14)
+ 28 EWRITE              ,            ,  p: (1, 14)
+ 29 GOTOS               ,            ,  e:  32    
+ 30 EASIG     i:   0    ,            ,  p: (1, 15)
+ 31 EWRITE              ,            ,  p: (1, 15)
+ 32 EASIG     i:   0    ,            ,  p: (1, 16)
+ 33 EASIG     p: (1, 16),            ,  p: (1, -3)
+ 34 TOPFP               ,            ,            
+ 35 FPPOP               ,            ,            
+ 36 FIN                 ,            ,            

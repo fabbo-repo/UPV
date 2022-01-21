@@ -1,0 +1,25 @@
+﻿  Source.cpp
+D:\Repositorios\OpenGLProjects\OpenGLSolution\codebase\Utilidades.h(29,44): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\codebase\Utilidades.h(30,45): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\codebase\Utilidades.h(35,57): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\codebase\Utilidades.h(36,57): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\codebase\Utilidades.h(38,54): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\codebase\Utilidades.h(252,37): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract4\Source.cpp(39,16): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract4\Source.cpp(41,45): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract4\Source.cpp(41,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract4\Source.cpp(42,45): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract4\Source.cpp(42,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract4\Source.cpp(51,17): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract4\Source.cpp(53,45): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract4\Source.cpp(53,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract4\Source.cpp(54,45): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract4\Source.cpp(54,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract4\Source.cpp(75,15): warning C4244: 'argumento': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract4\Source.cpp(76,31): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract4\Source.cpp(76,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+  Generando código
+  Previous IPDB not found, fall back to full compilation.
+  All 19 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generación de código finalizada
+  Pract4.vcxproj -> D:\Repositorios\OpenGLProjects\OpenGLSolution\Release\Pract4.exe

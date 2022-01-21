@@ -1,0 +1,44 @@
+﻿  Source.cpp
+D:\Repositorios\OpenGLProjects\OpenGLSolution\codebase\Utilidades.h(29,44): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\codebase\Utilidades.h(30,45): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\codebase\Utilidades.h(35,57): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\codebase\Utilidades.h(36,57): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\codebase\Utilidades.h(38,54): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\codebase\Utilidades.h(252,37): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(28,31): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(104,37): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(105,37): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(116,39): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(118,39): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(132,39): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(166,39): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(167,39): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(179,26): warning C4566: el carácter representado por el nombre de carácter universal '\uFFFD' no se puede representar en la página de códigos actual (1252)
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(207,28): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(277,56): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(278,56): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(279,56): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(280,56): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(427,33): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(427,66): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(428,31): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(428,64): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(454,40): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(455,40): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(541,80): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(541,104): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(543,31): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(543,56): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(604,31): warning C4305: '+=': truncamiento de 'double' a 'float'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(608,32): warning C4305: '-=': truncamiento de 'double' a 'float'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(623,13): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(624,13): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(627,11): warning C4566: el carácter representado por el nombre de carácter universal '\uFFFD' no se puede representar en la página de códigos actual (1252)
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(684,19): warning C4566: el carácter representado por el nombre de carácter universal '\uFFFD' no se puede representar en la página de códigos actual (1252)
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Test\Source.cpp(688,15): warning C4566: el carácter representado por el nombre de carácter universal '\uFFFD' no se puede representar en la página de códigos actual (1252)
+  Generando código
+  2 of 146 functions ( 1.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Generación de código finalizada
+  Test.vcxproj -> D:\Repositorios\OpenGLProjects\OpenGLSolution\Release\Test.exe

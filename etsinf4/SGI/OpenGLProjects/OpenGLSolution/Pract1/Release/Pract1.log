@@ -1,0 +1,7 @@
+﻿  Main.cpp
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract1\Main.cpp(17,33): warning C4305: 'argumento': truncamiento de 'double' a 'GLclampf'
+  Generando código
+  Previous IPDB not found, fall back to full compilation.
+  All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generación de código finalizada
+  Pract1.vcxproj -> D:\Repositorios\OpenGLProjects\OpenGLSolution\Release\Pract1.exe

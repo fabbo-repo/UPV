@@ -1,0 +1,7 @@
+% Variable que contiene número de rectangulos
+par int: NR = 5;
+
+% Vector que contiene el Alto
+array[1..NR] of par int: Alto = [10,15,20,20,30];
+% Vector que contiene el Ancho
+array[1..NR] of par int: Ancho = [15,5,15,25,40];

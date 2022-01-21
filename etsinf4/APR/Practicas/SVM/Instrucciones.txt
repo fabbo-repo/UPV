@@ -1,0 +1,12 @@
+1- Ejecutar en el directorio de trabajo de APR:
+git clone https://github.com/cjlin1/libsvm
+2- Ir al directorio matlab
+cd libsvm/matlab
+3- ejecutar Octave 
+octave --no-gui -q 
+4- escibir la orden 
+make
+5- Añadir al path los ficheros svmpredict.mex y svmtrain.mex, 
+desde octave con:
+addpath('.')
+o mantenerlos en el directorio de trabajo

@@ -1,0 +1,92 @@
+------------------------------------------------------------
+FOR
+------------------------------------------------------------
+header.h:
+...
+typedef struct for_inst /****** Estructura para los for */
+{
+  int ini;            
+  int lv;        
+  int lf; 
+  int aux;        
+} FOR_INST;
+...
+------------------------------------------------------------
+asin.y:
+...
+%union{ 
+    ...
+    FOR_INST instfor;
+}
+...
+instruccion
+        ...     
+        | instruccionIteracion
+        ;
+...
+instruccionIteracion
+        : FOR_ AP_ expresionOpcional PCOMA_   { $<cent>$ = si; } 
+        expresion PCOMA_                      {
+                                                      if ($6.tipo != T_ERROR && $6.tipo != T_LOGICO){ yyerror("..."); }
+                                                      $<instfor>$.lv = creaLans(si); emite(EIGUAL, crArgPos(niv, $6.pos), crArgEnt(1), crArgEtq(-1));
+                                                      $<instfor>$.lf = creaLans(si); emite(GOTOS, crArgNul(), crArgNul(), crArgEtq(-1));
+                                                      $<instfor>$.aux = si;
+                                              } 
+        expresionOpcional CP_
+                                              {
+                                                      emite(GOTOS, crArgNul(), crArgNul(), crArgEtq($<cent>5));
+                                                      completaLans($<instfor>8.lv, crArgEnt(si));
+                                              } 
+        instruccion
+                                              {
+                                                      emite(GOTOS, crArgNul(), crArgNul(), crArgEtq($<instfor>8.aux));
+                                                      completaLans($<instfor>8.lf, crArgEnt(si));
+                                              } 
+        ;
+------------------------------------------------------------
+INCREMENTO
+------------------------------------------------------------
+asin.y:
+...
+%type<cent> operadorIncremento
+...
+expresionUnaria
+        ...
+        | operadorIncremento ID_
+        {
+            SIMB sim = obtTdS($2);
+            $$.tipo = T_ERROR;
+            if (sim.t == T_ERROR) yyerror(...);
+            else if (sim.t == T_ARRAY) yyerror(...);
+            else $$.tipo = sim.t;         
+            $$.pos = creaVarTemp();
+            emite($1, crArgPos(sim.n, sim.d), crArgEnt(1), crArgPos(sim.n, sim.d));
+            emite(EASIG, crArgPos(sim.n, sim.d), crArgNul(), crArgPos(niv, $$.pos));
+        } 
+        ;
+...
+expresionSufija
+        ...
+        | ID_ operadorIncremento
+        {
+            SIMB sim = obtTdS($1); 
+            $$.tipo = T_ERROR;
+            if(sim.t == T_ERROR) {   yyerror(...); }
+            else if (sim.t == T_ARRAY){ yyerror(...); }
+            else{ $$.tipo = sim.t; }
+            $$.pos = creaVarTemp();
+            emite(EASIG, crArgPos(sim.n, sim.d), crArgNul(), crArgPos(niv, $$.pos)); 
+            emite($2, crArgPos(sim.n, sim.d), crArgEnt(1), crArgPos(sim.n, sim.d));
+        } 
+...
+operadorIncremento
+        : MAS2_     { $$ = ESUM;     } 
+        | MENOS2_   { $$ = EDIF;   } 
+        ;
+...
+------------------------------------------------------------
+alex.l:
+...
+"++"            { retornar(MAS2_);  } 
+"--"            { retornar(MENOS2_);}
+... 

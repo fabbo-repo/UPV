@@ -1,0 +1,29 @@
+﻿  Source.cpp
+D:\Repositorios\OpenGLProjects\OpenGLSolution\codebase\Utilidades.h(29,44): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\codebase\Utilidades.h(30,45): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\codebase\Utilidades.h(35,57): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\codebase\Utilidades.h(36,57): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\codebase\Utilidades.h(38,54): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\codebase\Utilidades.h(252,37): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract6\Source.cpp(48,1): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract6\Source.cpp(60,39): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract6\Source.cpp(61,39): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract6\Source.cpp(135,47): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract6\Source.cpp(141,47): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract6\Source.cpp(151,40): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract6\Source.cpp(223,42): warning C4838: la conversión de 'GLdouble' en 'GLfloat' requiere una conversión de restricción
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract6\Source.cpp(223,42): warning C4244: 'inicializando': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract6\Source.cpp(224,43): warning C4838: la conversión de 'GLdouble' en 'GLfloat' requiere una conversión de restricción
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract6\Source.cpp(224,43): warning C4244: 'inicializando': conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract6\Source.cpp(227,37): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract6\Source.cpp(245,44): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract6\Source.cpp(246,47): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract6\Source.cpp(316,27): warning C4305: '-=': truncamiento de 'double' a 'float'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract6\Source.cpp(324,27): warning C4305: '+=': truncamiento de 'double' a 'float'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract6\Source.cpp(384,28): warning C4305: '=': truncamiento de 'double' a 'float'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract6\Source.cpp(390,26): warning C4305: '-=': truncamiento de 'double' a 'float'
+  Generando código
+  Previous IPDB not found, fall back to full compilation.
+  All 139 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generación de código finalizada
+  Pract6.vcxproj -> D:\Repositorios\OpenGLProjects\OpenGLSolution\Release\Pract6.exe

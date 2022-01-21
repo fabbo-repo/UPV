@@ -1,0 +1,20 @@
+﻿  Main.cpp
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract3\Main.cpp(25,25): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract3\Main.cpp(30,16): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract3\Main.cpp(32,45): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract3\Main.cpp(32,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract3\Main.cpp(33,45): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract3\Main.cpp(33,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract3\Main.cpp(42,17): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract3\Main.cpp(44,45): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract3\Main.cpp(44,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract3\Main.cpp(45,45): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract3\Main.cpp(45,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract3\Main.cpp(56,12): warning C4244: 'argumento': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract3\Main.cpp(64,19): warning C4244: 'argumento': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+D:\Repositorios\OpenGLProjects\OpenGLSolution\Pract3\Main.cpp(65,42): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+  Generando código
+  Previous IPDB not found, fall back to full compilation.
+  All 18 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generación de código finalizada
+  Pract3.vcxproj -> D:\Repositorios\OpenGLProjects\OpenGLSolution\Release\Pract3.exe
