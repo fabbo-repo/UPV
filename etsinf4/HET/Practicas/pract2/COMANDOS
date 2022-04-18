@@ -1,0 +1,17 @@
+CTRL x y luego 2 -> Modo TUI (registros, ensamblador y consola), al hacerlo dos veces, se muestran los registros
+
+CTRL x y luego o -> Cambiar foco entre ventanas del modo TUI
+
+b main -> breakpoint en main
+
+run -> Ejecutar programa hasta breakpoint o todo
+
+si <N> -> Ejecutar N instrucciones
+
+x /<FMT> <addr> -> <FMT> puede ser x(hexadecimal), u(decimal unsigned), t(binario), i(instruccion), s(string)
+
+i r -> lista los registros
+
+set *(<addr>)=<valor en hexadecimal>
+
+c -> continua hasta el siguiente breakpoint

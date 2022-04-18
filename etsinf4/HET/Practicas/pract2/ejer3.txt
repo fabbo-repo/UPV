@@ -1,0 +1,4 @@
+x /4x $sp
+
+Al ejecutar, ver mapa de memoria:
+info proc mapping o info proc m

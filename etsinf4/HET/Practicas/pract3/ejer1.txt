@@ -1,0 +1,22 @@
+1- param.c, usando una funcion con muchos parametros se puede apreciar la estructura del fram a la llamada a subrutina, primero los parapetros apilados y luego el estado de la maquina (dir de retorno)
+
+2- ret.c para verificar que el valor devuelto por la funcion cuadrado se guarda en $ea
+
+3- pila1.c llamadas a funciones anidadas y uso del parametro fomit-frame-pointer
+
+4- pila2.c uso de volatile, volatile se usa para indicarle al compilador que el valor de una variable puede cambiar por distintas razones como mapeo con registros de entrada-salida o que la variable es modificada fuera del flujo del programa (rutina de servicio de interrupción), por lo que debe fiarse solo de su valor en memoria 
+Resultado:
+variable1 addr: 0x804c020   <- volatile (dir de memoria de codigo fuente)
+variable2 addr: 0xffffd094  <- normal (dir de la pila/stack)
+
+5- pila3.c, definir una variable contador
+
+6- array.c definir un array Dir array: ffffd074
+
+7- comando readelf y argumento -aW
+
+8- Comando objdump -S para leer ejecutable
+
+
+PARA MODIFICAR LA DIR DE RETORNO: set *(0xffffd08c)=0x80491c7 en el programa param
+

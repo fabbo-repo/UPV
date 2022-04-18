@@ -1,0 +1,8 @@
+b primera
+
+c
+
+NOTA: $pc es lo mismo que el registro eip
+
+set $pc=0x80491d3
+NOTA: Si ejecutamos saldran dos segunda, esto se debe al que al llamar a primera se guarda en la pila la direccion a la intruccion que va despues del call a primera, si $pc se modifica para que apunte a segunda, al acabar segunda ejecutara call de segunda
